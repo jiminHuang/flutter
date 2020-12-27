@@ -1,4 +1,4 @@
-FROM cirrusci/flutter:1.25.0-8.1.pre
+FROM daocloud.io/windworship/flutter:latest
 RUN flutter channel master
 
 ENV PUB_HOSTED_URL https://mirrors.tuna.tsinghua.edu.cn/dart-pub
